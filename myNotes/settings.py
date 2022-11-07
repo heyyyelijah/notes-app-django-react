@@ -16,7 +16,8 @@ SECRET_KEY = [os.environ.get('SECRET_KEY'), config('SECRET_KEY')]
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://127.0.0.1:8000/', '127.0.0.1:8000', 'reactdjango-notes.herokuapp.com']
+ALLOWED_HOSTS = ['http://127.0.0.1:8000/', '127.0.0.1:8000', 
+'reactdjango-notes.herokuapp.com', 'https://reactdjango-notes.herokuapp.com/']
 
 
 # Application definition
