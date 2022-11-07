@@ -2,6 +2,8 @@
 from pathlib import Path
 from decouple import config
 import os
+import mimetypes
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -19,6 +21,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['http://127.0.0.1:8000/', '127.0.0.1:8000', 
 'reactdjango-notes.herokuapp.com', 'https://reactdjango-notes.herokuapp.com/']
 
+
+mimetypes.add_type("text/css", ".css", True)
 
 # Application definition
 
