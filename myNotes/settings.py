@@ -54,6 +54,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
     "http://localhost:8000",
     "http://127.0.0.1:8000",
+    'reactdjango-notes.herokuapp.com', 
+    'https://reactdjango-notes.herokuapp.com/'
 ]
 
 ROOT_URLCONF = 'myNotes.urls'
